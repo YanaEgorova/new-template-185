@@ -16,6 +16,10 @@ body.open-menu {
     align-items: center;
     flex-direction: row-reverse;
 }
+.header__flex > div {
+    display: flex;
+    align-items: center;
+}
 .header__btn {
     width: 6rem;
     height: 5rem;
@@ -97,7 +101,8 @@ body.open-menu {
 }
 
 .cart__btn {
-    display: none;
+    display: flex;
+    margin-right: 1rem;
     align-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
